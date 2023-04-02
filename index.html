@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fishie.com</title>
+    <link rel="stylesheet" href="CSS/style.css">    
+    <link rel="stylesheet" media="screen and (max-width:1010px)" href="CSS/phone.css">    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav id="navbar">
+        <div id="logo">
+            <img src="IMG/Logo.png" alt="Fishie.com">
+        </div>
+            <ul>
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#services-container">Services</a></li>
+                <li class="item"><a href="#clients-section">Clients</a></li>
+                <li class="item"><a href="#contact">Contact Us</a></li>
+            </ul> 
+    </nav>
+</div>
+   
+
+<section id="home">
+    <h1 class="h-primary">Welcome to Fishie</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestiae vitae commodi sit quaerat</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit at</p>
+    <button class="btn">Order Meal</button>
+</section>
+
+<section id="services-container">
+<h1 class="h-primary center">Our Services</h1>
+<div id="services">
+    <div class="box">
+        <img src="IMG/Fish_curry.png" alt="FISH CURRY">
+        <h2 class="h-secondary center">Fish Curry</h2>
+        <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At fugiat cupiditate illum nemo. Aut omnis tempora porro amet, delectus corporis beatae deleniti minus repudiandae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores architecto laboriosam id eligendi, placeat sit molestias nostrum itaque deleniti non?</p>
+    </div>
+    <div class="box">
+        <img src="IMG/fish_dish.png" alt="FISH CURRY">
+        <h2 class="h-secondary center">Fish Fry</h2>
+        <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, unde sed? Minima odit ab eaque sint soluta? Eum esse obcaecati nam, tempora fugit temporibus?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt cupiditate nisi placeat mollitia excepturi delectus sequi ducimus dicta a error.</p>
+    </div>
+    <div class="box">
+        <img src="IMG/Fish_pizza.png" alt="FISH CURRY">
+        <h2 class="h-secondary center">Fish Pizza</h2>
+        <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tempore assumenda, nam voluptate iure dolores expedita rem, dolor ipsam tempora, unde porro corporis a!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi commodi facilis unde ad atque consequatur cupiditate nobis libero veniam quo?</p>
+    </div>
+</div>
+</section>
+<section id="clients-section">
+    <h1 class="h-primary center">Our Clients</h1>
+    <div id="clients">
+        <div class="client-item">
+            <img src="IMG/Client1.png" alt="Client1" >
+        </div>
+        <div class="client-item">
+            <img src="IMG/Client2.png" alt="Client4" >
+        </div>
+        <div class="client-item">
+            <img src="IMG/Client6.png" alt="Client5">
+        </div>
+        <div class="client-item">
+            <img src="IMG/Client3.png" alt="Client3" >
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <h1 class="h-primary center">Contact Us</h1>
+    <div id="contact-box">
+        <form action="">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name: ">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="Enter your email: ">
+            </div>
+            <div class="form-group">
+                <label for="num">Moblie No.:</label>
+                <input type="text" name="num" id="num" placeholder="Enter your number: ">
+            </div>
+            <div class="form-group">
+                <label for="messg">Message:</label>
+                <textarea name="messg" id="messg" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" onclick="Func()">Submit </button>
+            </div>
+        
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="center">
+        Copyright &copy; www.fishie.com All rights reserved!
+    </div>
+</footer>
+</body>
+
+<script>
+    function Func()
+    {
+        alert("Thank for contacting Fishie!")
+    }
+</script>
+</html>
